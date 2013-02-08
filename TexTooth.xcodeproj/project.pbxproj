@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1FB78EE16B9011F0030B99F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB78ED16B9011F0030B99F /* UIKit.framework */; };
+		A1FB78F016B9011F0030B99F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB78EF16B9011F0030B99F /* Foundation.framework */; };
+		A1FB78F216B9011F0030B99F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB78F116B9011F0030B99F /* CoreGraphics.framework */; };
+		A1FB78F816B9011F0030B99F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1FB78F616B9011F0030B99F /* InfoPlist.strings */; };
+		A1FB78FA16B9011F0030B99F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB78F916B9011F0030B99F /* main.m */; };
+		A1FB78FE16B9011F0030B99F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB78FD16B9011F0030B99F /* AppDelegate.m */; };
+		A1FB790016B9011F0030B99F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FB78FF16B9011F0030B99F /* Default.png */; };
+		A1FB790216B9011F0030B99F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FB790116B9011F0030B99F /* Default@2x.png */; };
+		A1FB790416B9011F0030B99F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1FB790316B9011F0030B99F /* Default-568h@2x.png */; };
+		A1FB790716B9011F0030B99F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1FB790616B9011F0030B99F /* ViewController.m */; };
+		A1FB790A16B9011F0030B99F /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1FB790816B9011F0030B99F /* ViewController_iPhone.xib */; };
+		A1FB790D16B9011F0030B99F /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1FB790B16B9011F0030B99F /* ViewController_iPad.xib */; };
+		A1FB791416B903880030B99F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FB791316B903880030B99F /* GameKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A1FB78E916B9011F0030B99F /* TexTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TexTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1FB78ED16B9011F0030B99F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1FB78EF16B9011F0030B99F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1FB78F116B9011F0030B99F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1FB78F516B9011F0030B99F /* TexTooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TexTooth-Info.plist"; sourceTree = "<group>"; };
+		A1FB78F716B9011F0030B99F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1FB78F916B9011F0030B99F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1FB78FB16B9011F0030B99F /* TexTooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TexTooth-Prefix.pch"; sourceTree = "<group>"; };
+		A1FB78FC16B9011F0030B99F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1FB78FD16B9011F0030B99F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1FB78FF16B9011F0030B99F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A1FB790116B9011F0030B99F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A1FB790316B9011F0030B99F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1FB790516B9011F0030B99F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1FB790616B9011F0030B99F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1FB790916B9011F0030B99F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		A1FB790C16B9011F0030B99F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		A1FB791316B903880030B99F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1FB78E616B9011E0030B99F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB791416B903880030B99F /* GameKit.framework in Frameworks */,
+				A1FB78EE16B9011F0030B99F /* UIKit.framework in Frameworks */,
+				A1FB78F016B9011F0030B99F /* Foundation.framework in Frameworks */,
+				A1FB78F216B9011F0030B99F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1FB78DE16B9011E0030B99F = {
+			isa = PBXGroup;
+			children = (
+				A1FB78F316B9011F0030B99F /* TexTooth */,
+				A1FB78EC16B9011F0030B99F /* Frameworks */,
+				A1FB78EA16B9011F0030B99F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1FB78EA16B9011F0030B99F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB78E916B9011F0030B99F /* TexTooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FB78EC16B9011F0030B99F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB791316B903880030B99F /* GameKit.framework */,
+				A1FB78ED16B9011F0030B99F /* UIKit.framework */,
+				A1FB78EF16B9011F0030B99F /* Foundation.framework */,
+				A1FB78F116B9011F0030B99F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1FB78F316B9011F0030B99F /* TexTooth */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB78FC16B9011F0030B99F /* AppDelegate.h */,
+				A1FB78FD16B9011F0030B99F /* AppDelegate.m */,
+				A1FB790516B9011F0030B99F /* ViewController.h */,
+				A1FB790616B9011F0030B99F /* ViewController.m */,
+				A1FB790816B9011F0030B99F /* ViewController_iPhone.xib */,
+				A1FB790B16B9011F0030B99F /* ViewController_iPad.xib */,
+				A1FB78F416B9011F0030B99F /* Supporting Files */,
+			);
+			path = TexTooth;
+			sourceTree = "<group>";
+		};
+		A1FB78F416B9011F0030B99F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1FB78F516B9011F0030B99F /* TexTooth-Info.plist */,
+				A1FB78F616B9011F0030B99F /* InfoPlist.strings */,
+				A1FB78F916B9011F0030B99F /* main.m */,
+				A1FB78FB16B9011F0030B99F /* TexTooth-Prefix.pch */,
+				A1FB78FF16B9011F0030B99F /* Default.png */,
+				A1FB790116B9011F0030B99F /* Default@2x.png */,
+				A1FB790316B9011F0030B99F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1FB78E816B9011E0030B99F /* TexTooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1FB791016B9011F0030B99F /* Build configuration list for PBXNativeTarget "TexTooth" */;
+			buildPhases = (
+				A1FB78E516B9011E0030B99F /* Sources */,
+				A1FB78E616B9011E0030B99F /* Frameworks */,
+				A1FB78E716B9011E0030B99F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TexTooth;
+			productName = TexTooth;
+			productReference = A1FB78E916B9011F0030B99F /* TexTooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FB78E016B9011E0030B99F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Taylor Triggs";
+			};
+			buildConfigurationList = A1FB78E316B9011E0030B99F /* Build configuration list for PBXProject "TexTooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1FB78DE16B9011E0030B99F;
+			productRefGroup = A1FB78EA16B9011F0030B99F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1FB78E816B9011E0030B99F /* TexTooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1FB78E716B9011E0030B99F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB78F816B9011F0030B99F /* InfoPlist.strings in Resources */,
+				A1FB790016B9011F0030B99F /* Default.png in Resources */,
+				A1FB790216B9011F0030B99F /* Default@2x.png in Resources */,
+				A1FB790416B9011F0030B99F /* Default-568h@2x.png in Resources */,
+				A1FB790A16B9011F0030B99F /* ViewController_iPhone.xib in Resources */,
+				A1FB790D16B9011F0030B99F /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1FB78E516B9011E0030B99F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FB78FA16B9011F0030B99F /* main.m in Sources */,
+				A1FB78FE16B9011F0030B99F /* AppDelegate.m in Sources */,
+				A1FB790716B9011F0030B99F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A1FB78F616B9011F0030B99F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FB78F716B9011F0030B99F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1FB790816B9011F0030B99F /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FB790916B9011F0030B99F /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		A1FB790B16B9011F0030B99F /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1FB790C16B9011F0030B99F /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1FB790E16B9011F0030B99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1FB790F16B9011F0030B99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1FB791116B9011F0030B99F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TexTooth/TexTooth-Prefix.pch";
+				INFOPLIST_FILE = "TexTooth/TexTooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1FB791216B9011F0030B99F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TexTooth/TexTooth-Prefix.pch";
+				INFOPLIST_FILE = "TexTooth/TexTooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1FB78E316B9011E0030B99F /* Build configuration list for PBXProject "TexTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FB790E16B9011F0030B99F /* Debug */,
+				A1FB790F16B9011F0030B99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FB791016B9011F0030B99F /* Build configuration list for PBXNativeTarget "TexTooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FB791116B9011F0030B99F /* Debug */,
+				A1FB791216B9011F0030B99F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FB78E016B9011E0030B99F /* Project object */;
+}
